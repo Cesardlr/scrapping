@@ -55,7 +55,7 @@ const puppeteer = require('puppeteer');
 
 
 
-// PDF
+// THIS ONE CAN GET A PDF FROM A PAGE
 // const puppeteer = require('puppeteer');
 // (async () => {
 //   const browser = await puppeteer.launch();

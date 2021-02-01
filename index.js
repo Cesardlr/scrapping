@@ -9,7 +9,7 @@ const puppeteer = require('puppeteer');
     });
     await page.goto('https://www.amazon.com');
     // await page.screenshot({path : 'amazon1.jpg'});
-    await page.type('#twotabsearchtextbox','eagle eyes');
+    await page.type('#twotabsearchtextbox','javascript books');
     // await page.screenshot({path : 'amazon2.jpg'});
     await page.click('.nav-search-submit input')
     await page.waitForSelector('[data-component-type=s-search-result]')
